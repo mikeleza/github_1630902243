@@ -6,10 +6,6 @@
         header("location: admin/admin_home.php");
     }
 
-    if (isset($_SESSION['employee_login'])) {
-        header("location: employee/employee_home.php");
-    }
-
     if (isset($_SESSION['user_login'])) {
         header("location: user/user_home.php");
     }
